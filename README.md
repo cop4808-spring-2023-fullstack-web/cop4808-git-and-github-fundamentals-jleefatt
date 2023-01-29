@@ -1,5 +1,5 @@
 Student: Jordan Lee-Fatt
-Assignment 1
+# Assignment 1
 
 # :wave: The Basics of GitHub 
 
