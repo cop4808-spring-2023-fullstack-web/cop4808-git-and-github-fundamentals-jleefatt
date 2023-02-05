@@ -182,3 +182,12 @@ function operate(x, y, op) {
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
+
+/* Added functions*/
+function SquareRoot(num) {
+    displayValue = math.sqrt(num);
+}
+
+function squared(num) {
+    displayValue = math.pow(num,2);
+}
