@@ -3,10 +3,10 @@
 <p>Here is the updated calculator with new functions for use </p>
 
 <ul>
-    <li>Function</li>
-    <li>function</li>
-    <li>Function</li>
-    <li>function</li>
+    <li>(x^2)</li>
+    <li>π</li>
+    <li>√x</li>
+    <li>Natural Log</li>
 </ul>
 
 
