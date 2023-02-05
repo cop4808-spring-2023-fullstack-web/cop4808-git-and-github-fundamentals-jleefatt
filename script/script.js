@@ -38,9 +38,27 @@ function clickButton() {
             } else if(buttons[i].classList.contains('percent')) {
                 inputPercent(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('sign')) {
+            } 
+            else if(buttons[i].classList.contains('SquareRoot')) { /* sqrt function on click */
+                SquareRoot(displayValue);
+                updateDisplay();
+            }  
+            else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
+            }
+            else if(buttons[i].classList.contains('log')) { /* natural log on click */
+                natural_log(displayValue);
+                updateDisplay();
+            }    
+            else if(buttons[i].classList.contains('pi')) { /* pi function on click */
+                pi(displayValue);
+                updateDisplay();
+            }          
+            else if(buttons[i].classList.contains('squared')) { /* squared function on click */
+                squared(displayValue);
+                updateDisplay();
+
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
@@ -185,9 +203,17 @@ function roundAccurately(num, places) {
 
 /* Added functions*/
 function SquareRoot(num) {
-    displayValue = math.sqrt(num);
+    displayValue = Math.sqrt(num).toString();
 }
 
 function squared(num) {
-    displayValue = math.pow(num,2);
+    displayValue = Math.pow(num,2).toString();
+}
+
+function pi(num) {
+    displayValue = Math.PI.toString();
+}
+
+function natural_log(num) {
+    displayValue = Math.LN2.toString();
 }
