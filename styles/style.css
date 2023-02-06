@@ -112,9 +112,13 @@ button {
 }
 
 /* New CSS class for added functions (bg color, bold text, same size) */
-.squared {
+.squared{
     background-color: rgb(255, 0, 234);
     font-weight: bold;
+}
+
+.squared:active {
+    background-color: rgb(123, 189, 255);
 }
 
 .pi {
@@ -122,12 +126,26 @@ button {
     font-weight: bold;
 }
 
+.pi:active:active {
+    background-color: rgb(123, 189, 255);
+}
+
+
 .log {
     background-color: rgb(255, 0, 234);
     font-weight: bold;
+}
+
+.log:active {
+    background-color: rgb(123, 189, 255);
 }
 
 .SquareRoot {
     background-color: rgb(255, 0, 234);
     font-weight: bold;
 }
+
+.SquareRoot:active {
+    background-color: rgb(123, 189, 255);
+}
+
