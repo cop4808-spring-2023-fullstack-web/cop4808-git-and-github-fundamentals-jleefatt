@@ -11,4 +11,4 @@
 
 
 <h2>Gif</h2>
-<img src = "gifname.gif" alt = "alttext">
+<img src = "calculator demo.gif" alt = "alttext">
