@@ -10,5 +10,5 @@
 </ul>
 
 
-<h2>Gif</h2>
+<h2>New calculator GIF demo</h2>
 <img src = "https://imgur.com/Ycz1GEe.gif" alt = "alttext">
